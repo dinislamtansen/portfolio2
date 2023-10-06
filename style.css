@@ -1,0 +1,328 @@
+/*ajk first kono assignment korlam sikhar por*/
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.test{
+    border: 1px solid red;
+}
+/*nav section start here*/
+.nav{
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-around;
+}
+.nav p{
+    font-size: 32px;
+    padding-top: 10px;
+}
+.nav ul{
+    padding-top: 30px;
+}
+.nav ul li {
+    display: inline;
+    padding-top: 30px;
+    
+}
+.nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+.nav ul li a:hover{
+    color: grey;
+    text-decoration: underline ;
+    padding-bottom: 10px;
+    text-underline-offset: 1rem;
+}
+/*profile section starts here*/
+.profile-1{
+    display: inline-block;
+    width: 49.5%;
+    padding-top:30px ;
+}
+.profile-2{
+    display: inline-block;
+    width: 49.5%;
+    position: absolute;
+    padding: 150px 0px 0px 50px;
+
+}
+.profile-2 {
+    font-size: 150%;
+    text-align: center;
+    left: 500px;
+}
+.profile-2 p{
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+}
+.profile-2 h1{
+    font-family: sans-serif;
+    margin: 0px;
+    font-size: 48px;
+}
+.profile-2 .p-1{
+    color: #555;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    margin: 15px ;
+    font-weight: bold;
+}
+.profile-1 img{
+    display: inline-block;
+    padding: 50px 0px 0px 280px;
+    
+}
+.profile-1 p{
+    font-family: sans-serif;
+}
+.button-1{
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 15px 25px;
+    margin-right: 5px;
+    border: 0.1rem solid grey;
+    background-color: white;
+}
+.button-1:hover{
+    background-color: #353535;
+    color: white;
+    transition: all ease 1s;
+}
+.button-2{
+    padding: 15px 25px;
+    font-weight: bold;
+    background-color: #353535;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid #353535;
+}
+.button-2:hover{
+    background-color: black;
+    border: 1px solid black;
+    transition: all ease 1s;
+}
+i{
+    display: inline-block;
+    padding-top: 20px;
+    font-size:150%;
+
+}
+/*about section starts here*/
+.about{
+    text-align: center;
+    padding-top: 150px;
+}
+.about p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: grey;
+}
+.about h1{
+    font-family: sans-serif;
+    font-size: 48px;
+    margin: 0px;
+    
+}
+.about-1{
+    padding-top: 50px;
+}
+
+.about-img img{
+    border-radius: 25px;
+}
+.about-2{
+    padding-left: 160px;
+}
+.about-img{
+    width: 49.5%;
+    display: inline-block;
+    
+}
+.button3{
+    width: 49.5%;
+    display: inline-block;
+}
+.btn-pad{
+    padding-bottom: 20px;
+    padding-left: 0px;
+    
+}
+.btn-1{
+    background-color: white;
+    border-radius: 25px;
+    border: 0.1rem solid grey;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    font-family: sans-serif;
+    margin-right: 25px;
+}
+.btn-2{
+    display: inline-block;
+    background-color: white;
+    border-radius: 25px;
+    border: 0.1rem solid grey;
+    width: 40%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.iconarrow i{
+    padding-left: 600px;
+}
+
+.para {
+    font-family: sans-serif;
+    width: 565px;
+    height: 125px;
+    color: grey;
+    font-size: 16px;
+}
+.about2{
+    display: inline-block;
+}
+/*here starts explore css*/
+.explore {
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 40px;
+}
+.explore h1{
+    font-size: 48px;
+    font-family: sans-serif;
+    margin: 0px;
+}
+.exp{
+    padding: 50px 150px;
+
+}
+.front{
+    width: 35%;
+    border: 0.1rem solid grey;
+    text-align: center;
+    height: 40%;
+    display: inline-block;
+    border-radius: 25px;
+    margin-left: 80px;
+    padding: 20px;
+}
+.front h2{
+    padding: 20px;
+}
+.second-arrow{
+    padding-left: 1130px;
+}
+.skill{
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+.skill h3{
+    display: inline;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+.skill p{
+    margin-left: 50px;
+    font-family: sans-serif;
+    color: grey;
+}
+.exp-1{
+    display: inline-block;
+    width: 40%;
+    padding-left: 40px;
+}
+.exp-2{
+    display: inline-block;
+    width: 40%;
+}
+.exp-class{
+    width: 40%;
+}
+.third-arrow{
+    display: inline;
+    
+    right: 0px;
+}
+/* project-css start here*/
+.project{
+    text-align: center;
+    font-family: sans-serif;
+}
+.project-mrgn{
+    margin: 0px 135px;
+}
+.project p{
+    font-size: 16px;
+    color: grey;
+}
+.project h2{
+    font-size: 48px;
+    margin: 0px;
+}
+.project-border{
+    align-content: center;
+}
+.project-img{
+    border: 0.1rem solid grey;
+    width: 40%;
+    border-radius: 25px;
+    padding: 24px 22px 24px 40px;
+    display: inline-block;
+    margin: 20px;
+    background-color: #FAFAFA;
+}
+.project-img img{
+    border-radius: 25px;
+}
+.project-btn{
+    text-align: center;
+}
+.project-btn h2{
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.project-btn button{
+    border-radius: 25px;
+    padding: 15px 40px;
+    margin: 10px;
+    border: 0.1rem solid grey;
+    background-color: white;
+    font-size: 14px;
+}
+.project-last{
+    text-align: center;
+}
+.Project-lastbtn h2{
+    font-family: sans-serif;
+    font-size: 48px ;
+    color: grey;
+}
+.project-last button{
+    border-radius: 25px;
+    padding: 15px 40px;
+    margin: 10px;
+    border: 0.1rem solid grey;
+    background-color: white;
+    font-size: 14px;
+}
+.project-lastborder{
+    border: 0.1rem solid grey;
+    margin: 0px 155px 30px 155px;
+    border-radius: 25px;
+    padding: 25px;
+}
+.project-lastborder img{
+    border-radius: 25px;
+}
+.project-lastborder h2{
+    font-family: sans-serif;
+    font-size: 28px;
+}
+i{
+   
+}
